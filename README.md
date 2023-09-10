@@ -119,6 +119,5 @@ unlike the other services.
 ### Special Considerations
 
 - When deploying in production, consider load balancing across multiple Kafka brokers for scalability.
-- Monitor Redis memory usage to ensure it can handle the expected volume of data.
 
 ---
