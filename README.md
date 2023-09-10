@@ -81,6 +81,25 @@ Follow these steps to set up and run the User Engagement Analytics System:
 
 ---
 
+### Viewing Kafka Messages
+
+**Kafdrop Web Interface**:
+   - Open a web browser and go to `http://localhost:9000`.
+   - Kafdrop is a Kafka web UI that allows you to inspect Kafka topics and messages.
+
+**Explore Topics and Messages**:
+   - You'll now be able to explore the Kafka topics and view messages within each topic.
+
+### Viewing Redis Data
+
+**Redis Commander Web Interface**:
+   - Open a web browser and go to `http://localhost:8081`.
+
+**Explore Redis Data**:
+   - You'll now be able to explore the Redis database and view keys, values, and other data.
+
+Please ensure that Docker services (Kafka, Zookeeper, Redis) are up and running before accessing these interfaces.
+
 ## Performance Optimizations
 
 Performance optimizations in the project include:
