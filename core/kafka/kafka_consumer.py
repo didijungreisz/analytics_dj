@@ -37,7 +37,6 @@ class Consumer:
         self.store_date(interaction_data, timestamp, user_id)
 
     def consume_data(self):
-        print("im here listening ")
         for message in self.consumer:
             print(message.value)
             interaction_data = message.value

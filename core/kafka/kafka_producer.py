@@ -24,9 +24,7 @@ class Producer:
 
     def simulate_user_interactions(self):
         while True:
-            print("hellooo")
             interaction_data = self.generate_interaction_data()
-            print(interaction_data['site_name'])
             self.producer.send(interaction_data['site_name'], value=interaction_data)
             self.producer.flush()
-            time.sleep(10)
+            time.sleep(8)
